@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>博万体育 · 简明指南与访问提醒</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f0f2f5;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e2a3a;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .page {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    /* 卡片容器 */
+    .card {
+      background: #ffffff;
+      border: 1px solid #e0e4e9;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02), 0 1px 3px rgba(0,0,0,0.04);
+      padding: 2rem 2.2rem;
+      margin-bottom: 1.8rem;
+    }
+    /* hero 模块 - 开场 */
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e0e4e9;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+      margin-bottom: 1.8rem;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: #122b3c;
+      margin-bottom: 0.5rem;
+    }
+    .hero .tagline {
+      font-size: 1rem;
+      color: #5a6a7b;
+      border-top: 1px solid #eef1f5;
+      display: inline-block;
+      padding-top: 1rem;
+      margin-top: 0.2rem;
+    }
+    /* 段落排版 */
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      color: #1e2a3a;
+    }
+    .intro-text {
+      font-size: 1.02rem;
+    }
+    /* 特点列表 — 温和样式 */
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 1.2rem 0 0.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem 1.2rem;
+    }
+    .feature-list li {
+      background: #f5f7fa;
+      border-radius: 40px;
+      padding: 0.4rem 1.2rem;
+      font-size: 0.95rem;
+      color: #1e3a4a;
+      border: 1px solid #e5e9ef;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+    .feature-list li::before {
+      content: "— ";
+      color: #8699aa;
+      font-weight: 300;
+    }
+    /* 场景/提示 小标签 */
+    .note-box {
+      background: #f7f9fc;
+      border-left: 4px solid #b6c8d6;
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      margin: 1.4rem 0 0.8rem;
+      font-size: 0.95rem;
+    }
+    .note-box strong {
+      color: #284b5c;
+      font-weight: 500;
+    }
+    /* FAQ 卡片内紧凑 */
+    .faq-item {
+      padding: 0.7rem 0;
+      border-bottom: 1px solid #edf0f4;
+    }
+    .faq-item:last-of-type {
+      border-bottom: none;
+    }
+    .faq-q {
+      font-weight: 500;
+      color: #1f3b4a;
+      margin-bottom: 0.2rem;
+    }
+    .faq-a {
+      color: #3a4f5e;
+      margin-left: 0.1rem;
+    }
+    /* 链接样式 */
+    a {
+      color: #1e5a7a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: #c9d9e6;
+      font-weight: 450;
+      transition: color 0.15s;
+    }
+    a:hover {
+      color: #003a5c;
+      text-decoration-color: #90b0c7;
+    }
+    /* 引用 / 温柔结尾 */
+    .closing {
+      margin-top: 0.6rem;
+      padding: 1rem 0 0.2rem;
+      border-top: 1px solid #e3e8ef;
+      color: #3f5466;
+      font-style: normal;
+    }
+    .closing small {
+      color: #748699;
+    }
+    /* 响应式 */
+    @media (max-width: 600px) {
+      body { padding: 1.2rem 0.8rem; }
+      .card, .hero { padding: 1.5rem 1rem; }
+      .hero h1 { font-size: 1.7rem; }
+      .feature-list { flex-direction: column; gap: 0.5rem; }
+      .feature-list li { width: fit-content; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 开幕：短句 + 承接 -->
+  <div class="hero">
+    <h1>博万体育</h1>
+    <div class="tagline">一次浏览，一种习惯</div>
+  </div>
+
+  <!-- 承接段落 — 简明指南角度 -->
+  <div class="card">
+    <p class="intro-text">
+      如果你正在寻找一个信息集中、结构克制的体育内容站点，可以试试 <a href="https://official-bowansports.com">博万体育</a>。它不像大多数信息流那样拥挤，反而保留了一种老派的阅读节奏——板块清晰，标题冷静，没有频繁弹窗干扰。初次使用只需要知道自己想了解哪一类内容，剩下的按分区浏览即可。
+    </p>
+    <p>
+      站内导航本身就像一份索引：赛事动态、运动科普、专题整理，各自独立成块。不需要注册或登录就能看到大部分内容，这降低了尝试成本。如果你习惯先看概览再深入细节，这种布局会尤其顺手。
+    </p>
+  </div>
+
+  <!-- 特点列表 —— 温和叙述 -->
+  <div class="card">
+    <h3 style="font-weight: 450; font-size: 1.15rem; color: #1f3a4a; margin-bottom: 0.2rem;">浏览时你会注意到</h3>
+    <ul class="feature-list">
+      <li>分类清晰，每个栏目都有简短说明</li>
+      <li>信息密度适中，不堆砌无关内容</li>
+      <li>移动端适配自然，竖屏阅读友好</li>
+      <li>没有自动播放的视频或音频</li>
+      <li>外部链接均标注来源，可回溯</li>
+    </ul>
+    <div style="margin-top: 1rem; color: #3c5a6e; font-size: 0.95rem;">
+      这些细节不会刻意强调，但使用几次后就能感受到。适合只想安静获取运动资讯的人。
+    </div>
+  </div>
+
+  <!-- 场景 + 访问提醒 (故事叙述感) -->
+  <div class="card">
+    <p>
+      有时候你只是想知道某个联赛的近期结果，或者查看一项运动的规则演变，并不想被算法推荐带偏。<a href="https://official-bowansports.com">博万体育</a> 的设计思路接近于一本参考手册——把信息放在那里，由你决定什么时候翻阅。这种“非侵入”的体验在今天的体育网站里已经不多见了。
+    </p>
+    <div class="note-box">
+      <strong>一点提醒</strong><br>
+      网站不使用强制推送通知，也不搜集位置信息。如果你在寻找纯粹、无弹窗的阅读环境，可以把它加入书签。首次打开后花两分钟熟悉一下板块分布，后续使用会非常流畅。
+    </div>
+    <p style="margin-top: 0.8rem;">
+      另外，站内没有内嵌社交分享按钮，减少了跳转干扰。你可以专心看完一篇文章，再决定是否复制链接。
+    </p>
+  </div>
+
+  <!-- FAQ 摘要 — 简洁、自然 -->
+  <div class="card">
+    <h3 style="font-weight: 450; font-size: 1.10rem; color: #1f3a4a; margin-bottom: 0.8rem;">常见疑问 · 摘要</h3>
+    <div class="faq-item">
+      <div class="faq-q">是否需要注册才能浏览？</div>
+      <div class="faq-a">不需要。绝大部分内容对访客开放，无需账户即可阅读。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">网站更新频率如何？</div>
+      <div class="faq-a">没有固定时间表，但每周会有若干次补充或修订，偏向深度而非速度。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">内容支持引用或转载吗？</div>
+      <div class="faq-a">每篇文章底部都有来源说明，转载时注明出处即可。</div>
+    </div>
+  </div>
+
+  <!-- 温和结尾 -->
+  <div class="card closing" style="text-align: center;">
+    <p style="margin-bottom: 0.3rem;">一份安静的体育索引，不打扰，不焦虑。</p>
+    <small>博万体育 · 保持简要</small>
+  </div>
+
+</div>
+</body>
+</html>
